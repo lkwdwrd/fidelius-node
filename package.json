@@ -1,0 +1,44 @@
+{
+  "name": "fidelius",
+  "version": "0.1.0",
+  "description": "A utility for secret sharing, encrypted end-to-end.",
+  "main": "index.js",
+  "bin": {
+    "fidelius": "fidelius.js"
+  },
+  "scripts": {
+    "test": "echo 'no tests currently' && exit 0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lkwdwrd/fidelius-node.git"
+  },
+  "keywords": [
+	"secret",
+	"sharing",
+    "message",
+	"encrypted",
+	"end-to-end"
+  ],
+  "author": "Luke Woodward",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/lkwdwrd/fidelius/issues"
+  },
+  "homepage": "https://github.com/lkwdwrd/fidelius#readme",
+  "dependencies": {
+    "chalk": "^2.3.2",
+    "conf": "^1.4.0",
+    "e3db": "^1.2.2",
+    "inquirer": "^5.2.0",
+    "lodash": "^4.17.5",
+    "meow": "^4.0.0",
+    "node-fetch": "^2.1.2",
+    "read-pkg-up": "^3.0.0"
+  },
+  "devDependencies": {
+    "eslint": "^4.19.1",
+    "eslint-plugin-import": "^2.10.0",
+    "eslint-config-airbnb-base": "^12.1.0"
+  }
+}
