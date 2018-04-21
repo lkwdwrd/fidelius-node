@@ -1,3 +1,7 @@
+/**
+ * The main entry point of hte application, allowing Fidelius to be a dependency.
+ */
+
 'use strict';
 
 // Import dependencies
