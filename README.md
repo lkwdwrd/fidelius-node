@@ -102,7 +102,7 @@ $ fidelius change user
 If you need to migrate a user to another instance of fidelius, you can export the user with the export command
 
 ```
-$ fidelius export
+$ fidelius export user
 ```
 
 This will print a user's full set of keys so you can transfer them to another Fidelius instance if needed.
@@ -163,7 +163,7 @@ The Node version of fidelius is brand new. Please feel free to review the softwa
 
 ### Requirements
 
-Fidelius JS is not using Babel to transpile the Javascript. Internally it uses async/await to manage asynchronous processing. This means you must have **Node v7.10.1 or higher*** to run Fidelius.
+Fidelius JS is not using Babel to transpile the Javascript. Internally it uses async/await to manage asynchronous processing. This means you must have **Node v7.10.1 or higher** to run Fidelius.
 
 ## e3db
 
